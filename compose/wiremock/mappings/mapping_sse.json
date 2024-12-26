@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/v1/projects/stream/events"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/event-stream",
+      "Cache-Control": "no-cache"
+    },
+    "bodyFileName": "sse_events_body.txt",
+    "chunkedDribbleDelay": {
+      "numberOfChunks": 5,
+      "totalDuration": 500
+    }
+  }
+}

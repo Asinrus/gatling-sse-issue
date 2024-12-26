@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: forward_route
+          uri: http://sse-stub:8080
+          predicates:
+            - Path=/**
+
+logging:
+  level:
+    example:
+      gatling:
+        sse: DEBUG

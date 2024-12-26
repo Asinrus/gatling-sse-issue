@@ -1,0 +1,10 @@
+event: userActivity
+data: {"id": "1", "eventTime": "2021-09-01T12:00:00Z", "activityType": "productReview", "details": {"comment": "Great experience overall!", "mood": "POSITIVE", "rating": 0.90}}
+
+data: {"id": "2", "eventTime": "2021-09-01T12:01:00Z", "activityType": "productReview", "details": {"comment": "Unsatisfied with the product quality.", "mood": "NEGATIVE", "rating": 0.70}}
+
+data: {"id": "3", "eventTime": "2021-09-01T12:02:00Z", "activityType": "productReview", "details": {"comment": "Average performance, nothing special.", "mood": "NEUTRAL", "rating": 0.50}}
+
+data: {"id": "4", "eventTime": "2021-09-01T12:03:00Z", "activityType": "productReview", "details": {"comment": "Best purchase I've made this year!", "mood": "POSITIVE", "rating": 0.95}}
+
+data: {"id": "5", "eventTime": "2021-09-01T12:04:00Z", "activityType": "productReview", "details": {"comment": "Overpriced for the features offered.", "mood": "NEGATIVE", "rating": 0.30}}
