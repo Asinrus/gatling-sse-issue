@@ -15,7 +15,7 @@ Run environment
 ```bash
  ./gradlew testComposeUp
 ```
-Run simulation with problem to access to mock without last event
+Run simulation with problem to access to mock without `event: stop`
 ```bash
 ./gradlew gatlingRun --simulation sse.simulation.SimulationWithProblem
 ```
