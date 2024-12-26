@@ -32,7 +32,7 @@ event: userActivity
 2024-12-26T12:18:08.150226885Z 
 2024-12-26T12:18:08.150228926Z data: {"id": "5", "eventTime": "2021-09-01T12:04:00Z", "activityType": "productReview", "details": {"comment": "Overpriced for the features offered.", "mood": "NEGATIVE", "rating": 0.30}}
 ```
-In gatling's log you will see that gatling consumes:
+In gatling's log you will see that gatling consumes and there is no data with `"id": "5"` :
 ```bash 
 16:18:08.166 [DEBUG] i.g.h.a.s.f.SseStream - Received SSE event ServerSentEvent(Some(userActivity),Some({"id": "1", "eventTime": "2021-09-01T12:00:00Z", "activityType": "productReview", "details": {"comment": "Great experience overall!", "mood": "POSITIVE", "rating": 0.90}}),None,None) while in Open state. Propagating.
 16:18:08.167 [DEBUG] i.g.h.a.s.f.SseIdleState - Received unmatched message={"event":"userActivity","data":"{\"id\": \"1\", \"eventTime\": \"2021-09-01T12:00:00Z\", \"activityType\": \"productReview\", \"details\": {\"comment\": \"Great experience overall!\", \"mood\": \"POSITIVE\", \"rating\": 0.90}}"}
